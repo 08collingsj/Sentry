@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="Sentry.Views.Navigation"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Sentry.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="+"/>
+        <TextBlock Grid.Column="1" Text="Sentry" TextAlignment="Center" VerticalAlignment="Center"/>
+        <Button Grid.Column="2" Content="x"/>
+    </Grid>
+</UserControl>
